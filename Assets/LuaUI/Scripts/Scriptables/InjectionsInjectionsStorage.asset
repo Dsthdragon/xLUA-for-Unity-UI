@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73a6952e479f4e14f876d82006c9421d, type: 3}
+  m_Name: InjectionsInjectionsStorage
+  m_EditorClassIdentifier: 
+  injectionModels:
+  - luaAsset: {fileID: 4900000, guid: 2b20c361dad53cb49bc5fdc27c15410a, type: 3}
+    injectionPrefabs:
+    - name: text
+      value: {fileID: 6565388789244075232, guid: bcb7cf11324caa944897e32b0f5b463c,
+        type: 3}
+    - name: button
+      value: {fileID: 3384878312625535922, guid: 355f62ee1fdbe924ba9408303c584c1d,
+        type: 3}
+    - name: textParentI
+      value: {fileID: 913603763303750588, guid: baa83bf0aa2c9d944a3c8615455e6939,
+        type: 3}
+    - name: buttonParentI
+      value: {fileID: 2783453943228341126, guid: 37b63974beeca5b4b83afa44bddca398,
+        type: 3}
+    - name: nameStorage
+      value: {fileID: 8657511027411301436, guid: 2e807c251d58a1e468305e1bbf0a522e,
+        type: 3}

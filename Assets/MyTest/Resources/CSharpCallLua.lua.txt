@@ -1,0 +1,43 @@
+-- Define a comprehensive table (the oop idea in lua)
+
+Table = {"Tega", "Police", "Pish"}
+
+GetNameByIndex = function(i)
+	print(Table[i])
+	return Table[i]
+end
+
+GetTableMaxCount = function ()
+	local x = 0
+	for i = 1, #Table do
+		x = x + 1
+	end
+	return x
+end
+
+GameUser=
+{
+	Age = 199,
+	ID="188875221",
+
+	Speak=function()
+	    print("lua player is in discussion")
+	end,
+	Walking=function()
+	 print("lua player is in fitness")
+	end,
+	 Calulation=function(this,num1,num2) --Description: this can be named arbitrarily, indicating the current object (ie GameUser)
+	    print("lua player plus age and")
+	  return this.age+num1+num2
+    end,
+
+	Add = function(args, a, b)
+		return print(a + b)
+	end,
+}
+
+add = function(a, b)
+	print(a + b)
+	return a + b, a, b
+end
+

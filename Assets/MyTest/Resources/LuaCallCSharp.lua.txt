@@ -1,0 +1,11 @@
+CS.UnityEngine.GameObject("Testing Spawn")
+
+print(CS.UnityEngine.Time.deltaTime)
+
+CS.UnityEngine.Time.timeScale = 0.5
+
+local light = CS.UnityEngine.GameObject.Find("Directional Light")
+
+light.name = "update by lua"
+
+CS.UnityEngine.GameObject.Destroy(light:GetComponent("Light"))

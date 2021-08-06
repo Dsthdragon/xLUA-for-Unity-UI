@@ -1,0 +1,10 @@
+TableA = {"Ade", "B", "C"}
+TableB = {"D", "E", "F"}
+TableC = {"G", "H", "I"}
+
+LoadTableValuesByTableName = function (tableName)
+	for i = 1, #tableName do
+		print(tableName[i])
+	end
+end
+

@@ -1,0 +1,18 @@
+function newDoFile(filename)
+    f = assert(loadfile(filename))
+    return f()
+end
+
+local testT = newDoFile("D:\\Unity\\xLua-master\\Assets\\StreamingAssets\\Test.lua")
+
+function start()
+	testT.start(text, button, textParentI, buttonParentI, nameStorage)
+end
+
+function update()
+	testT.update()
+end
+
+function ondestroy()
+	testT.ondestroy()
+end
